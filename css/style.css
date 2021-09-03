@@ -1,0 +1,296 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+*,
+*:before
+*:after {
+	box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    max-width: 1353px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header-top {
+    background: url('../assets/img/section-elements/bg-img.png') no-repeat center top / cover;
+    height: 1057px;
+}
+
+.login-btn {
+    background-color: #3d4b60;
+    border-radius: 10px;
+}
+
+.login {
+    font-size: 22px;
+    color: #cad1db;
+}
+
+.link-light {
+    font-size: 22px;
+    font-style: italic;
+    text-decoration: none;
+    color: #c9ced7;
+}
+
+.header-section-card {
+    background: none;
+}
+
+.card-title {
+    font-size: 60px;
+    color: #fff;
+}
+
+.card-text {
+    font-size: 28px;
+    width: 640px;
+    line-height: 38px;
+    color: #c5d2e5;
+}
+
+.btn-primary-section {
+    background-color: #67bf95;
+    color: #fff;
+    font-size: 41px;
+    border-radius: 7px;
+    width: 304px;
+    line-height: 79px;
+    
+}
+
+.header-section-image {
+    margin-top: 170px;
+    width: 349px;
+    height: 334px;
+}
+
+.section-two {
+    background-color: #f6f6f7;
+
+}
+
+.second-section {
+    padding-bottom: 70px;
+}
+
+.section-two-card {
+    background: none;
+}
+
+.card-title-two {
+    font-size: 48px;
+    color: #37414e;
+    width: 600px;
+}
+
+.card-text-two {
+    font-size: 22px;
+    line-height: 44px;
+    width: 700px;
+    hyphens: auto;
+    color: #4b596c;
+}
+
+.section-two-left-image {
+    margin-left: 40px;
+}
+
+.carousel-control-prev::after {
+    content: url('../assets/img/section-three/prev-button.png');
+}
+
+.carousel-control-next:after {
+    content: url('../assets/img/section-three/next-button.png');
+}
+
+.get-started {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.w-800 {
+    width: 800px;
+}
+
+.sect-four-txt {
+    color: #858b93;
+}
+
+.list-group-item {
+    font-size: 38px;
+    color: #6d737b;
+}
+
+.pricing-plans {
+    font-size: 38px;
+}
+
+.card {
+    width: 400px;
+    border-radius: 4px;
+}
+
+.left-card {
+    background: #4b596c;
+
+}
+
+.mid-card {
+    background: #58ad52;
+
+}
+
+.right-card {
+    background: #52a1ad;
+
+}
+
+.list-bg-top {
+    background: #e9eef3;
+}
+
+.list-bg-mid {
+    background: #deebde;
+}
+
+.list-bg-bot {
+    background: #dee9ec;
+}
+
+.sing-up-btn {
+    border-radius: 0;
+    width: 350px;
+}
+
+.left-card, .mid-card, .right-card {
+    width: 375px;
+}
+
+.professional-img {
+    position: absolute;
+    top: 18px;
+    left: 345px;
+}
+
+.card-section-five {
+    background-color: #e9eaed;
+}
+
+.title-section-five {
+    font-size: 49px;
+    color: #4b596c;
+}
+
+.section-six {
+    background: #2d3136;
+}
+
+.form-label {
+    font-size: 40px;
+    color: #d7d7d7;
+}
+
+.mail-lable::after {
+    content: url('../assets/img/section-six/asterisk.png');
+    vertical-align: 40px;
+}
+
+.name-lable::after {
+    content: url('../assets/img/section-six/asterisk.png');
+    vertical-align: 25px;
+}
+
+.form-control {
+    width: 543px;
+    height: 115px;
+}
+
+.form-control {
+    background-color: transparent;
+    border: 2px solid #4c4f53;
+    color: #d7d7d7;
+    font-size: 40px;
+    line-height: 40px;
+}
+
+.form-control:focus {
+    color: #d7d7d7;
+    background-color: transparent;
+    border-color: #743538;
+    box-shadow: none;
+}
+
+.form-label::after {
+    content: url('../assets/img/section-six/asterisk.png');
+    vertical-align: 20px;
+}
+
+.textarea {
+    width: 650px;
+    height: 346px;
+}
+
+.send-msg-btn {
+    background: #be393b;
+    border: none;
+    font-size: 41px;
+    font-weight: 600;
+    width: 263px;
+    height: 105px;
+}
+
+.send-msg-btn:hover {
+    background: #fff;
+    color: #be393b;
+}
+
+.send-msg-btn:focus {
+    border: none;
+    box-shadow: none;
+    background: #fff;
+    color: #be393b;
+}
+
+.footer-info {
+    background: #2a2d33;
+}
+
+.logo-name {
+    font-size: 32px;
+    color: #efefef;
+}
+
+.logo-link {
+    width: 220px;
+}
+
+.footer-txt {
+    border-left: 2px solid #efefef;
+    height: 30px;
+}
+
+.web-source {
+    font-size: 21px;
+    color: #8d8d8d;
+}
+
+.link-web-source, .logo-link {
+    text-decoration: none;
+    color: #8d8d8d;
+}
+
+.social-media {
+    width: 180px;
+}
